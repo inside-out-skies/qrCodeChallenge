@@ -1,20 +1,37 @@
- .zone-wrapper {
-	background: white;
-	border-color: darkgrey;
-	padding: 125px;
-	width: 200px;
-	height: 300px;
-	justify-content: center;
-}
-.section {
-	width: 150px;
-	height: 150px;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.container>img {
-	width: 100% ;
-	}
+body {
+	font-family: outfit, sans-serif;
+	background-color: hsl(212, 45%, 89%);
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
 
-.container>img {
-	width: 100%;
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.card {
+	background-color: hsl(0, 0%, 100%);
+	font-size: 15px;
+	text-align: center;
+	padding: 15px;
+	border-radius: 18px;
+	margin: 0 1em;
+}
+
+.card img {
+	max-width: 100%;
+	border-radius: 16px;
+}
+
+h2, p {
+	padding: 20px 8px;
 }
